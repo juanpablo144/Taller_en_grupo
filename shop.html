@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>GHOSTHSHOP</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+</head>
+<body>
+    <nav class="menuCSS3">
+        <ul>
+            <li><a href="#">Vuelos</a>
+                <ul>
+                    <li><a href="#">Alojamiento</a></li>
+                    <li><a href="#">Paquetes</a></li>
+                    <li><a href="#">Actividades</a></li>
+                    <li><a href="#">Translado</a></li>
+                </ul>
+
+            </li>
+        </ul>
+    </nav>
+    <div class="container">
+            <div class="banner fade">
+                <img src="img/banner1.jpg" style="width:100%">
+            </div>
+            <div class="banner fade">
+                <img src="img/banner2.jpg" style="width:100%">
+            </div>
+            <a class="prev" onclick="Slide(-1)"><</a>
+            <a class="next" onclick="Slide(1)">></a>
+        </div>
+    <div class="padre">
+        <div>
+            <h1>Crucero</h1>
+            <img src="img/img1.jpg" alt="" width="240px" height="240px" >
+            <p class="inline">Referencia:</p>
+            <p class="ref inline">crucero1</p>
+            <br>
+            <p class="inline">Precio: $</p>
+            <p id="precio1" class="inline">5000</p>
+        </div>
+        <div>
+            <h1>Las vegas</h1>
+            <img src="img/img2.jpg" alt="" width="240px" height="240px">
+            <p class="inline">Referencia:</p>
+            <p class="ref inline">vegas1</p>
+            <br>
+            <p class="inline">Precio: $</p>
+            <p id="precio2" class="inline">3000</p>
+        </div>
+        <div>
+            <h1>Guantes</h1>
+            <img src="img/img2.jpg" alt="" width="240px" height="240px">
+            <p class="inline">Referencia:</p>
+            <p class="ref inline">guantes_01</p>
+            <br>
+            <p class="inline">Precio: $</p>
+            <p id="precio3" class="inline">2000</p>
+        </div>
+    </div>
+    <div class="formulario">
+        <label for="">Referencia</label>
+        <input type="text" name="txt_ref" id="txt_ref">
+        <button id="btn_agregar" class="btn">Agregar</button>
+        <button id="btn_quitar" class="btn">Eliminar</button>
+    </div>
+    <div id="lista">
+        
+        <p class="inline_block">Producto</p>
+        <p class="inline_block">Valor</p>
+        <br>
+    </div>
+    <button id="btn_comprar">Comprar</button>
+    <div id="fantasma">
+        <img src="http://www.gifsanimados.org/data/media/77/fantasma-y-espiritu-imagen-animada-0075.gif"   />
+    </div>
+    <script src="js/lista.js"></script>
+</body>
+</html>

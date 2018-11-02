@@ -1,0 +1,169 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+body {
+    margin: 0px;
+}
+header {
+    background: #cccccc;
+    width: 100%;
+}
+form {
+    width: 50%;
+    margin: 0 auto;
+}
+button {
+    padding: 10px 25px;
+    background: #cccccc;
+    border-radius: 5px;
+}
+.reloj {
+    width: 40%;
+    display: inline-block;
+}
+.col-6 {
+    width: 47%;
+    display: inline-block;
+    text-align: center;
+    margin: 5px;
+}
+.col-12 {
+    width: 97%;
+    display: inline-block;
+    text-align: center;
+    margin: 5px;
+}
+input[type="text"], input[type="date"], input {
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+.padre {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.padre div {
+    width: 30%;
+    height: auto;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    box-shadow: #00000017 5px 4px;
+}
+
+footer {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+}
+.sociales {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+.padre img {
+    width: 100%;
+    text-align: center;
+}
+h1{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+p{
+    font-family: 'Ubuntu', sans-serif;
+}
+.formulario{
+    margin-top: 150px;
+    text-align: center;
+}
+
+.btn{
+    padding: 20px 20px;
+}
+.inline{
+    display: inline;
+}
+.inline_block{
+    display: inline-block;
+    margin-right: 40px;
+}
+/* Slideshow container */
+.container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade { from {opacity: .3}  to {opacity: 1}}
+
+@keyframes fade {from {opacity: .3} to {opacity: 1}} 
+
+/* Fantasma */
+
+div#fantasma { width: 50px; height: 50px; position: absolute;}
+div#fantasma img{ width: 100%; position: absolute;}
+
+/* Fantasma */
+
+/* menu */
+.menuCSS3 ul {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.menuCSS3 a {
+	display: block;
+	padding: 2em;
+	background-color: #81BEF7;
+	text-decoration: none;
+	color: #191C26;
+}
+.menuCSS3 a:hover {
+	background-color: #2E2EFE;
+}
+.menuCSS3 ul li ul {
+	display: none;
+}
+.menuCSS3 ul li a:hover + ul, .menuCSS3 ul li ul:hover {
+	display: block;
+}

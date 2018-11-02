@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tienda virtual</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body onload="setInterval('actReloj()',1000);">
+    <header>
+        <div class="reloj">
+            <figure class="inline">
+                <div id="reloj"></div>
+            </figure>
+        </div>
+    </header>
+    
+    <section>
+        <h1 class="titulo">Registro</h1>
+        <form name="formulario" action="">
+            <div class="col-6"><input name="name" type="text" placeholder="nombre" >
+            </div>
+            <div class="col-6">
+                <input name="lastname" type="text" placeholder="apellidos" >
+            </div>
+            <div class="col-6">
+                <input name="birthday" type="date" >
+            </div>
+            <div class="col-6">
+                <input name="phone" type="" placeholder="teléfono" >
+            </div>
+            <div class="col-12">
+                <button onclick="validar()">validar</button>
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        <div class="sociales"><a href="https://www.facebook.com"><img src="img/fb.png"></a></div>
+        <div class="sociales"><a href="https://www.instagram.com"><img src="img/ins.png"></a></div>
+        <div class="sociales"><a href="https://twitter.com"><img src="img/twit.png"></a></div>
+        <p>Todos Los Derechos Reservados</p>
+    </footer>
+    <div id="fantasma">
+        <img src="http://www.gifsanimados.org/data/media/77/fantasma-y-espiritu-imagen-animada-0075.gif"   />
+    </div>
+    <script src="js/scripts.js"></script>
+    <script src="js/ghost.js"></script>
+</body>
+</html>
