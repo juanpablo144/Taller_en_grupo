@@ -1,8 +1,9 @@
-Javier Ortegon<br>
-German Rodrigo Reyes<br>
-Steven Aragon<br>
-Oscar Jordan<br>
-Adrian Tibocha<br>
-Jefferson Caceres<br>
-Fabian Zapata<br>
-Juan Pablo Perez
+Javier Ortegon estilos <br>
+German Rodrigo Reyes<br> fantasma <br>
+Steven Aragon html estructura agregar y eliminar <br>
+Oscar Jordan cookies  <br>
+Adrian Tibocha Validaciones expreciones regulares <br>
+Jefferson Caceres Estilos css (menu) <br>
+Fabian Zapata Lider de equipo <br>
+Juan Pablo Perez Lider de equipo <br>
+edwin cadena javascript eliminar
