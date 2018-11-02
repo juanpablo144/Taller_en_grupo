@@ -1,4 +1,4 @@
-Javier Ortegon
+Javier Ortegon<br>
 German Rodrigo Reyes
 Steven Aragon
 Oscar Jordan
